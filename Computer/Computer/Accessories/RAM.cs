@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Computer.Accessories
+namespace DecoratorPattern
 {
-    public class RAM : IComputer
+    public class RAM : ComputerDecorator
     {
         public RAM(IComputer computer) : base(computer)
         {
         }
-        /*
+        
         public override double GetCost()
         {
-            return Computer.GetCost() + cost;
+            return Computer.GetCost() + 600;
         }
 
         public override string GetAccessories()
         {
-            return Car.GetAccessories() + ", processor";
+            return Computer.GetAccessories() + ", 16GB 2400MHz DDR4 Memory";
         }
-        */
+        
     }
 }

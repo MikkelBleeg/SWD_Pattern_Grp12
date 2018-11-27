@@ -1,0 +1,7 @@
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\bin\Debug\Computer.exe.config
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\bin\Debug\Computer.exe
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\bin\Debug\Computer.pdb
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\obj\Debug\DecoratorPattern.csprojAssemblyReference.cache
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\obj\Debug\DecoratorPattern.csproj.CoreCompileInputs.cache
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\obj\Debug\Computer.exe
+C:\Users\mikke\Desktop\SWD_Pattern_Grp12\Computer\Computer\obj\Debug\Computer.pdb

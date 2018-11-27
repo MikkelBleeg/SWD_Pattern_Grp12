@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Computer
+namespace DecoratorPattern
 {
     public class MacbookPro : IComputer
     {
         public double GetCost()
         {
-            return 25000;
+            return 15800;
         }
 
-        /*
+        
         public string GetAccessories()
         {
-            return "add info"
+            return "15-inch MacBook Pro";
         }
-        */
+        
     }
 }

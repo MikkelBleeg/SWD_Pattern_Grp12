@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Computer.Accessories
+namespace DecoratorPattern.Accessories
 {
-    public class Screen : IComputer
+    public class Screen : ComputerDecorator
     {
         public Screen(IComputer computer) : base(computer)
         {
         }
-        /*
+        
         public override double GetCost()
         {
-            return Computer.GetCost() + cost;
+            return Computer.GetCost() + 4000;
         }
 
         public override string GetAccessories()
         {
-            return Car.GetAccessories() + ", processor";
+            return Computer.GetAccessories() + ", Retina Display with True Tone";
         }
-        */
+        
     }
 }

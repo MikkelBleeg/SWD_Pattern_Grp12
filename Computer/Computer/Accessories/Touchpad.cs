@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
-    public class HardDrive : ComputerDecorator
+    public class Touchpad : ComputerDecorator
     {
-        public HardDrive(IComputer computer) : base(computer)
+        public Touchpad(IComputer computer) : base(computer)
         {
         }
         
-        public override double GetCost()
+        public double GetCost()
         {
-            return Computer.GetCost() + 5000;
+            return Computer.GetCost() + 138;
         }
 
         public override string GetAccessories()
         {
-            return Computer.GetAccessories() + ", 2T Hard drive";
+            return Computer.GetAccessories() + ", touchpad";
         }
         
     }
+
+
 }

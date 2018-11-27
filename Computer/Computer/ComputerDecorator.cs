@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Computer
+namespace DecoratorPattern
 {
     public abstract class ComputerDecorator : IComputer
     {

@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Computer.Accessories
+namespace DecoratorPattern.Accessories
 {
-    public class Processor : IComputer
+    public class Processor : ComputerDecorator
     {
         public Processor(IComputer computer) : base(computer)
         {
         }
-        /*
+        
         public override double GetCost()
         {
-            return Computer.GetCost() + cost;
+            return Computer.GetCost() + 2990;
         }
 
         public override string GetAccessories()
         {
-            return Car.GetAccessories() + ", processor";
+            return Computer.GetAccessories() + ", Intel Core i7 processor";
         }
-        */
+        
     }
 }
